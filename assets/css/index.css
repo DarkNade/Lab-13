@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .contenedores {
+    display: flex;
+    margin-left: 20px;
+  }
+
+  .tareas {
+    margin-right: 50px;
+    padding: 30px;
+
+  }
+
+#toDoContainer, #doingContainer, #completeContainer {
+    border: 1px solid rgb(39, 39, 39);
+    border-radius: 20px;
+    padding: 20px;
+    
+ 
+}
+
+  .botonPrincipal {
+    background-color: rgb(0, 98, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .botonPrincipal:hover {
+    background-color: white;
+    color: rgb(2, 99, 255);
+    border: solid 2px rgb(0, 98, 255);
+  }
+
+  #tarea {
+    width: 500px;
+    height: 70px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: solid 2px rgb(0, 0, 0);
+  }
+
+  .botonA {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  .botonB {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 140, 255);
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+  }
+
+  .botonEliminar {
+    width: 20px;
+    height: 20px;
+    background-color: none;
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    align-items: center
+  }
+
+ 
+  
